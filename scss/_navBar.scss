@@ -1,0 +1,40 @@
+nav{
+	background-color: $Mcolor;
+}
+
+h1,h2{
+	color: $Hcolor;
+}
+
+.seccolor{
+	background-color: $Scolor;
+
+}
+
+.redes-container{
+display: flex;
+width: $wauto;
+align-items: $posit;
+justify-content: $posit;
+	ul{
+		li{
+			display: inline-block;
+			margin: 0 5px;
+ 			width: $w-50;
+ 			height: $w-50;
+ 			text-align: $posit;
+
+ 			a{
+ 				display: block;
+				padding: 0 10px;
+				background: #333;
+				color: #fff;
+				line-height: $w-50;
+ 				font-size: 18px;
+ 				box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
+ 				transition: .2s;
+ 			}
+		
+		}
+	}
+}

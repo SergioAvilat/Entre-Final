@@ -1,0 +1,138 @@
+/*CONTACTO PERSONAL*/
+.conteiner{
+  width: 300px;
+  height: 300px;
+  background: steelblue;
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+.cambio{
+  font-size: 50px;
+}
+
+.texto1 p{
+  padding: 0px;
+  font-size: 20px;
+
+}
+/*carrusel de testimonios*/
+
+.wrapper{
+  width: 100%;
+  margin-top: 100px;
+  background: #f5ebdc;
+  padding: 20px 0;
+}
+
+
+.testimonial-client{
+  margin-bottom: 15px;
+  text-align: $posit;
+}
+
+.testimonial-client img{
+  width: 120px;
+  margin:auto;
+  text-align: $posit;
+}
+
+.client-name{
+  font-family: "Open sans";
+  font-weight: 600;
+  text-align: $posit;
+}
+
+.testimonial-text{
+  padding: 10px 120px;
+}
+
+.testimonial-text p{
+  font-size: 20px;
+  font-weight: 400;
+  text-align: $posit;
+  color: $Testi;
+}
+/*promociones*/
+.nav2{
+  background-color: orange;
+  color:$Testi2 ;
+  padding: 20px 0;
+  font-size: 1.3rem;
+  line-height: 1.4em;
+  display: flex;
+  flex-direction: column;
+  align-items: $posit;
+}
+.contenedor{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "nav" "header" "productos" "filtros" "aside" "footer";
+}
+
+#productos h1,
+#productos h2{
+  text-transform: uppercase;
+  font-size: 3rem;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f5ebdc;
+  font-family: Roboto, sans-serif;
+  margin: 20px 0;
+}
+
+#productos .galeria{
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+  #productos .galeria figure{
+    margin: 10px 0;
+  }
+
+    #productos .galeria figure img{
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      width: 100%;
+    }
+
+    #productos .galeria figure figcaption{
+      font-size: 2.5rem;
+      color: #502314;
+      padding: 10px 0;
+      background-color: orange;
+      text-align: $posit;
+    }
+
+    #productos .galeria p.price{
+      color: white;
+      padding-bottom: 10px;
+      background-color: $Hcolor;
+      text-align: $posit;
+    }
+
+/* productos destacados*/
+#productos .destacados article{
+  background-color: $pro ;
+}
+
+  #productos .destacados article p{
+    font-size: 2rem;
+    line-height: 2.4rem;
+    padding: 50px;
+    margin: 20px auto;
+    color: white;
+  }
+
+  #productos .destacados article h3{
+    color: white;
+    font-size: 3rem;
+    padding-left: 50px;
+    font-family: Roboto, sans-serif;
+  }
+
+.prod{
+  overflow-x: hidden;
+  background-attachment: fixed;
+}
